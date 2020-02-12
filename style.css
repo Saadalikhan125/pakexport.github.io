@@ -1,0 +1,294 @@
+/*
+GLOBAL STYLE
+*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Dosis', sans-serif;}
+    h1{
+        font-size: 3em;
+    }
+h2{
+    font-size: 2em;
+}
+h3{
+    font-size: 1.5em ;
+}
+.hero{
+
+
+   /* background:linear-gradient(to bottom right, #2196f3,#009688 );*/
+    background-image: url(image/ship.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+
+     
+}
+
+
+.menu{
+    width: 100%;
+    height: 40px;
+    background-color: yellow;
+}
+
+.menu ul{
+    text-align: center;
+}
+.menu ul li{
+    list-style: none;
+    display: inline;
+}
+
+.menu ul li a{
+    text-align: none;
+    display: inline block;
+    line-height: 40px;
+    padding: 0px 15px 0px 15px;
+}
+
+/*SEVICES SECTION*/
+
+
+.services{
+    width: 100%;
+    background-color: hsl(0, 0%, 95%);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+
+}
+.col-wallpaper{
+    width: 90%;
+    margin: auto;
+    padding-top: 50px;
+}
+.services-col{
+    width: 33%;
+    float: left;
+    padding: 10px 30px 10px 30px;
+}
+.services-col img{
+    width: 95px;
+    max-width: 100%;
+}
+.col-wallpaper::after{
+    clear: both;
+    display: table;
+    content: "";
+}
+/*aboutus*/
+.aboutus{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    background-image: url(image/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: goldenrod;
+    background-attachment: fixed;
+
+    
+}
+.aboutus-content{
+    width: 80%;
+    margin: auto;
+    background-color: black;
+    margin-top: 30px;
+    font-size: 1.1em;
+
+}
+.fal fa-angle-right{
+    background: rgba(red, green, blue, alpha);
+    margin-top: 30px;
+    border: none;
+    padding: 10px 15px 10px 15px;
+    outline: 1px solid yellow;
+    color: #ffffff;
+}
+/*OUR TEAM */
+
+.team{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: hsl(0, 0%, 95%);
+    width: 100%;
+    text-align: center;
+}
+.team-wepper{
+    width: 90%;
+    padding-top: 50px;
+    margin: auto;
+}
+.col-team{
+    width: 33.33%;
+    float: left;
+    padding:10px 30px 10px 30px;
+}
+.col-team img{
+    width: 80px;
+    max-width: 100%;
+    padding-bottom: 5px ;
+    
+}
+.col{
+    max-width: 200px;
+    max-height: 170px;
+    background: 1px solid rgba(0,0,0,0.05);
+    box-shadow: 0px 2px 4px 1px rgba(0,0,0,0.05);
+}
+.team-wepper.team-wepper::after{
+    clear: both;
+    content: "";
+    display: table;
+}
+.info{
+    width: 100%;
+    background-color: hsl(0, 0%, 95%);
+}
+.info-col
+{
+    background-color: yellow;
+    width: 100%;
+    padding: 30px 5px 30px 5px;
+}
+.info-col h3{
+    display: inline;
+}
+.info-logo{
+    width: 33%;
+    float: left;
+}
+.info-col::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+/*
+======================
+contact-info
+======================
+*/
+.contact-info
+{
+    width: 100%;
+    padding: 30%px 5%px 30%px 5%px;
+    text-align: center;
+}
+.contact-info::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.contact-info1{
+    width: 35%;
+    float: left;
+    text-align: center;
+    padding: 30%px 5%px 30%px 5%px;
+}
+.contact-info2{
+    width: 65%;
+    padding: 30%px 5%px 30%px 5%px;
+    float: left;
+    padding-right: 10%;
+
+}
+.social-icon{
+    padding: 15px;
+    border: 1px dotted black;
+    margin-top: 30px;
+}
+.fb{
+    background-color: #3a589b;
+    color: #ffffff;
+}
+.tw{
+    background-color: #32ccf3;
+    color: #ffffff;
+}
+.likin{
+    background-color: #007bb6;
+    color: #ffffff;
+}
+.ist{
+    background-color: red;
+    color: #ffffff;
+}
+/*Foem
+============
+*/
+.form-col{
+    float: left;
+    width: 48%;
+    margin: 2%;
+    text-align: left;
+}
+.msg{
+    width: 70%;
+    height: 250px;
+    border: none;
+    outline: none;
+}
+
+
+
+
+
+.name,.email{
+    width: 55%;
+    height: 30px;
+    padding: 0px 5px 0px 5px;
+    background-color: #ffffff;
+    border: none;
+    outline: none;
+}
+.lable{
+    margin-top: 20%;
+}
+.sendbtn{
+    background-color: yellow;
+    border: none;
+    outline: 1px solid yellow ;
+    padding: 10px 30px 10px 30px;
+    margin-top: 10px;
+    cursor: pointer;
+    
+
+}
+.footer{
+    background-color: #1b181f;
+    color: #eeeeee;
+    width: 100%;
+    padding: 50px 10px 50px 10px;
+
+}
+.footer::after{
+    clear: both;
+    display: table;
+    content: "";
+}
+.footer h2{
+    color: aliceblue;
+}
+.footer-col{
+    width: 33.33%;
+    float: left;
+    padding: 5px 10px 5px 10px;
+}
+.copy{
+    background-color: blue;
+    color: burlywood;
+    width: 100%;
+    
+}
